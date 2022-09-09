@@ -14,6 +14,9 @@ If anything is missing or off, go ahead and add/fix it or let someone know so th
 - Project Management Process (TODO)
 ## Developers
 - [Severless Services](developers/services/README.md)
+- Global Infrastructure (TODO)
+- React (TODO)
+- Rails (TODO)
 - Coding Standards and Management (TODO)
 - Workstation Setup (TODO)
 - etc
