@@ -20,6 +20,12 @@ If anything is missing or off, go ahead and add/fix it or let someone know so th
 
 ## Designers
 
+TODO
+
 ## QA
 
+TODO
+
 ## Project Managers
+
+TODO
