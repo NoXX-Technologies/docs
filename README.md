@@ -14,7 +14,7 @@ If anything is missing or off, go ahead and add/fix it or let someone know so th
 - Project Management Process (TODO)
 ## Developers
 - [Severless Services](developers/services/README.md)
-- Global Infrastructure (TODO)
+- [Global Infrastructure](https://github.com/NoXX-Technologies/infrastructure)
 - [React](https://github.com/NoXX-Technologies/react-frontend)
 - [Rails](https://github.com/NoXX-Technologies/rails)
 - Coding Standards, Process and Management (TODO)
