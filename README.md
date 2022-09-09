@@ -8,5 +8,7 @@ Anyway, the main page here acts as an index into specific levels of documentatio
 
 If anything is missing or off, go ahead and add/fix it or let someone know so they can add/fix it!
 
+[Please check back often for updates and changes!](https://github.com/NoXX-Technologies/docs/commits/main)
+
 ## Developers
 - [Severless Services](developers/services/README.md)
