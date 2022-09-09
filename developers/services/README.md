@@ -15,7 +15,7 @@ Each service will include attitional documentation (if necessary) but this guide
 - [Install node and npm](https://nodejs.org/en/download/)
 - [Install nvm](https://github.com/nvm-sh/nvm)
 - [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [Install Docker](https://docs.docker.com/engine/install/)
+- [Install Docker](https://docs.docker.com/engine/install/) (Python-based services, but good to have anyway)
 - Install Serverless `$ npm install -g serverless`
 - Install Oracle JDK and NOT Java JRE (Java-based services only)
 - Install Maven: `$ brew install maven` (Java-based services only)
