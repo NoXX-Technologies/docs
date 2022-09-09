@@ -2,11 +2,14 @@
 
 Micro Services built with a variety of languages (Java, Python, JavaScript, TypeScript) utilizing the [Serverless Framework](https://www.serverless.com/) compose the Noxx Platform.
 
+These micro services automatically connect to the [central Noxx infrastructure built with AWS CDK](https://github.com/NoXX-Technologies/infrastructure).
+
 Each service will include attitional documentation (if necessary) but this guide is to serve as global documentation, applicable to all Noxx services.
 
 ## Current Services
 - [Card Recognition](https://github.com/NoXX-Technologies/card-recognition-service)
-
+- [Java Sample](https://github.com/NoXX-Technologies/sample-java-service)
+- [JavaScript Sample](https://github.com/NoXX-Technologies/sample-service)
 ## Setup
 
 - [Install node and npm](https://nodejs.org/en/download/)
