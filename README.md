@@ -17,18 +17,18 @@ If anything is missing or off, go ahead and add/fix it or let someone know so th
 - Global Infrastructure (TODO)
 - React (TODO)
 - Rails (TODO)
-- Coding Standards and Management (TODO)
+- Coding Standards, Process and Management (TODO)
 - Workstation Setup (TODO)
-- etc
+- Common Access Requirements (TODO)
 
 ## Designers
 
-TODO
+- Common Access Requirements (TODO)
 
 ## QA
 
-TODO
+- Common Access Requirements (TODO)
 
 ## Project Managers
 
-TODO
+- Common Access Requirements (TODO)
