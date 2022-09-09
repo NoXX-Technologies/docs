@@ -15,8 +15,8 @@ If anything is missing or off, go ahead and add/fix it or let someone know so th
 ## Developers
 - [Severless Services](developers/services/README.md)
 - Global Infrastructure (TODO)
-- React (TODO)
-- Rails (TODO)
+- [React](https://github.com/NoXX-Technologies/react-frontend)
+- [Rails](https://github.com/NoXX-Technologies/rails)
 - Coding Standards, Process and Management (TODO)
 - Workstation Setup (TODO)
 - Common Access Requirements (TODO)
