@@ -11,24 +11,23 @@ If anything is missing or off, go ahead and add/fix it or let someone know so th
 [Please check back often for updates and changes!](https://github.com/NoXX-Technologies/docs/commits/main)
 
 ## Everybody
-- Project Management Process (TODO)
+- [Project Management Process](process/README.md)
 ## Developers
 - [Severless Services](developers/services/README.md)
 - [Global Infrastructure](https://github.com/NoXX-Technologies/infrastructure)
 - [React](https://github.com/NoXX-Technologies/react-frontend)
 - [Rails](https://github.com/NoXX-Technologies/rails)
-- Coding Standards, Process and Management (TODO)
 - Workstation Setup (TODO)
-- Common Access Requirements (TODO)
+- [Common Access Requirements](onboarding/README.md)
 
 ## Designers
 
-- Common Access Requirements (TODO)
+- [Common Access Requirements](onboarding/README.md)
 
 ## QA
 
-- Common Access Requirements (TODO)
+- [Common Access Requirements](onboarding/README.md)
 
 ## Project Managers
 
-- Common Access Requirements (TODO)
+- [Common Access Requirements](process/README.md)
