@@ -235,7 +235,7 @@ Used By:
 
 Training Material:
 
-#### Figma
+### Figma
 
 Used By:
 - Frontend Developers - Intermediate
@@ -266,6 +266,13 @@ Training Material:
 ### Rails Searchkik Gem
 Used By:
 - Backend Developers - Intermediate
+
+Training Material:
+
+### Rails Rspec Gem
+Used By:
+- Backend Developers - Intermediate
+- Platform Developers - Novice (know how to run it during CI/CD)
 
 Training Material:
 
@@ -323,6 +330,12 @@ Used By:
 
 Training Material:
 
+### Docker
+Used By:
+- Backend Developers - Novice
+- Platform Developers - Intermediate
+
+Training Material:
 
 ### Lambda
 Used By:
