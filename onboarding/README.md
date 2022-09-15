@@ -44,7 +44,7 @@ Used for:
 
 Owner: Beckett
 
-#### Google 
+#### Google Workspace 
 Used for: 
 - Document Management
 - Email
@@ -79,11 +79,30 @@ Owner: ???
 ### Quality Assurance Specialists
 
 
-## Equiment
+## Equipment
+
+### Everyone
+
+### All Developers
+
+### Frontend Developers
+
+### Backend Developers
+
+### Platform Developers
+
+### Designers
+
+### Project Managers
+
+### Quality Assurance Specialists
+
 
 ## Education
 
 ### Everyone
+
+### All Developers
 
 ### Frontend Developers
 
