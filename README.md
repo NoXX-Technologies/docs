@@ -6,7 +6,13 @@ Who ever thought documentation could be this fun, right?
 
 Anyway, the main page here acts as an index into specific levels of documentation.
 
-If anything is missing or off, go ahead and add/fix it or let someone know so they can add/fix it!
+************ STOP *****************
+
+Is something missing or off?
+
+Does something not work like the documentation says it should?
+
+Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 
 [Please check back often for updates and changes!](https://github.com/NoXX-Technologies/docs/commits/main)
 
