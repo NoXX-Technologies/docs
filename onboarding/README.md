@@ -1,4 +1,4 @@
-# Onboarding
+# Onboarding (Under Contruction)
 
 Onboarding documenation will guide a new hire from noob to contributing hero as quickly as possible.
 
@@ -24,7 +24,6 @@ We have broken this section down by role and cover everything from access, equip
 
 ### Quality Assurance Specialists
 
-### Under Contruction
 
 - Noxx GitHub organization (Code and Project Management)
 - Slack (Team communications)
