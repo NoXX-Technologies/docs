@@ -4,13 +4,28 @@ Onboarding documenation will guide a new hire from noob to contributing hero as 
 
 We have broken this section down by role and cover everything from access, equipment and education.
 
+The relevant roles are:
+## Frontend Developers
+Frontend Developers work primarily in React to build customer-facing clients that connect to backend technologies
+## Backend Developers
+Backend Developers create microservices that power, create, format and serve data to numerous front-end clients.
+
+## Platform Developers
+Platform Developers are NoOps engineers who automate Operations into PaaS and FaaS that host the services and clients built by the backend and frontend developers. This role also creates CI/CD pipelines as well as local development setups. Essentially, the Platform Developers' job is to make sure the Frontend Developers and Backend Developers only need to worry about creating application business logic.
+
+## Project Managers
+Project Managers are responsible for running iterations and IPMs. Additionally, project managers are responsible for estimation and timeline creation using a team's velocity.
+
+## Product Managers
+Product Managers create functional requirements with acceptance criteria which Project Managers used to prioritize and fill sprints.
+
+## Quality Assurance Specialists
+Quality Assurance Specialists ensure that the acceptance criteria created by the Product Managers are met. Additionally, this role is responsible for finding any regressions prior to production deployments.
 ## Access
 
 This is a list of services and tools you'll need access to, along with what it's used for and whom to contact to get access.
 
-### Everyone
-
-#### Noxx GitHub Organization
+### Noxx GitHub Organization
 Used for:
 - Code Management
 - Project Management
@@ -18,33 +33,43 @@ Used for:
 
 Owner: Krish Dasgupta
 
+Used by: Everyone
 
-#### Slack
+
+### Slack
 Used for:
 - Team Communication
 - Various Notifications (deployments, etc)
 
 Owner: Krish Dasgupta
 
-#### Miro
+Used by: Everyone
+
+### Miro
 Used for: Data Prototyping
 
 Owner: Krish Dasgupta
 
-#### Figma
+Used by: Everyone
+
+### Figma
 Used for: Design Mockups
 
 Owner: Krish Dasgupta
 
-#### Office 365
+Used by: Everyone
+
+### Office 365
 Used for: 
 - Document Management
 - Email
 - Video Conferencing
 
-Owner: Beckett
+Owner: ???
 
-#### Google Workspace 
+Used by: Everyone
+
+### Google Workspace 
 Used for: 
 - Document Management
 - Email
@@ -52,67 +77,263 @@ Used for:
 
 Owner: Krish Dasgupta
 
+Used by: Everyone
 
-### All Developers
 
-#### Serverless Framework 
+### Serverless Framework 
 Used for: Deploying and Monitoring Micro Services
 
 Owner: Krish Dasgupta
 
-### Frontend Developers
+Used by: 
+- Frontend Developers
+- Backend Developers
+- Platform Developers
 
-### Backend Developers
 
-### Platform Developers
+### HotJar
 
-#### AWS 
+HotJar records user sessions and we use it, in conjunction with Google Analytics, to analyze usability problems with the app.
+
+For example, if we are noticing a high drop off at a certain point in a GA Funnel, we can use HotJar to see why users aren’t completing a particular step in the GA Funnel.
+
+Owner: ???
+
+Used By:
+- Frontend Developers
+- Product Managers
+
+### Scout APM
+Used for: Performance Monitoring
+
+Owner: Krish Dasgupta
+
+Used By:
+- Backend Developers
+- Platform Developers
+
+
+### Honeybadger
+Honeybadger captures and tracks backend errors in the Rails API and creates GitHub tickets for us so we can triage them.
+
+Used for: Error Monitoring
+
+Owner: Krish Dasgupta
+
+Used By:
+- Backend Developers
+- Platform Developers
+- Project Managers
+
+### Log Rocket
+
+Log Rocket captures and tracks front-end errors in production and creates GitHub tickets for them so the developers can triage them.
+
+Used for: Error Monitoring
+
+Owner: Krish Dasgupta
+
+Used By:
+- Frontend Developers
+- Platform Developers
+- Project Managers
+
+
+
+### AWS 
 Used for: Building, Managing and Hosting Platform Infrastructure
 
 Owner: ???
 
+Used By:
+- Platform Developers
 
-### Designers
+### Loadster
 
-### Project Managers
+Loadster allows the QA team to records interactions and user stories and then play them back in the browser repeatedly while collecting render and load metrics.
 
-### Quality Assurance Specialists
+We use this to determine if there have been positive or negative gains in performance from iteration to iteration.
 
+Owner: Krish Dasgupta
+
+Used By:
+- Platform Developers
+- Backend Developers
+- Quality Assurance Specialists
+
+### Cypress.io
+
+Cypress.io provides a dashboard to see metrics on our end-to-end tests, including speed metrics and code coverage as well as what tests are not passing.
+
+This is updated every time code is committed to the GitHub repo.
+
+Used By:
+- Frontend Developers
+- Project Managers
 
 ## Equipment
 
-### Everyone
+### Laptop
+Owner: ???
 
-### All Developers
-
-### Frontend Developers
-
-### Backend Developers
-
-### Platform Developers
-
-### Designers
-
-### Project Managers
-
-### Quality Assurance Specialists
+Used By:
+- Everyone
 
 
 ## Education
 
-### Everyone
+This section descriptions a list of tools, technologies and processes that various roles should be familiar with.
 
-### All Developers
+Additionally, each role will have a required level of knowledge of each ranging from novice to advanced.
 
-### Frontend Developers
+### [Project Management and Deveopment](../process/README.md)
 
-### Backend Developers
+Used By:
+- Everyone - Advanced
 
-### Platform Developers
+### GraphQL
 
-### Designers
+Used By:
+- Frontend Developers - Advanced
+- Backend Developers - Advanced
+- Platform Developers - Intermediate
 
-### Project Managers
+Training Material:
 
-### Quality Assurance Specialists
+### React
 
+Used By:
+- Frontend Developers - Advanced
+
+Training Material:
+
+### Cypress
+
+Used By:
+- Frontend Developers - Advanced
+- Platform Developers - Novice (just need to know how to configure it for CI/CD)
+
+Training Material:
+
+### Material UI
+
+Used By:
+- Frontend Developers - Advanced
+
+Training Material:
+
+### Apollo Client
+Used By:
+- Frontend Developers - Advanced
+
+Training Material:
+
+### TypeScript
+Used By:
+- Frontend Developers - Intermediate
+- Platform Developers - Intermediate
+
+Training Material:
+
+#### Figma
+
+Used By:
+- Frontend Developers - Intermediate
+- Designers - Advanced
+- Product Managers - Novice
+- Project Managers - Novice
+
+Training Material:
+
+### Rails
+Used By:
+- Backend Developers - Intermediate
+
+Training Material:
+
+### Rails Admin Gem
+Used By:
+- Backend Developers - Intermediate
+
+Training Material:
+
+### Rails GraphQL Gem (with Pro)
+Used By:
+- Backend Developers - Intermediate
+
+Training Material:
+
+### Rails Searchkik Gem
+Used By:
+- Backend Developers - Intermediate
+
+Training Material:
+
+### Node
+Used By:
+- Backend Developers - Novice
+
+Training Material:
+
+### Python
+Used By:
+- Backend Developers - Novice
+
+Training Material:
+
+### Java
+Used By:
+- Backend Developers - Novice
+
+Training Material:
+
+### CloudFormation Development Kit
+Used By:
+- Platform Developers - Advanced
+
+Training Material:
+
+### Aurora (Postgres)
+Used By:
+- Platform Developers - Intermediate
+
+Training Material:
+
+### RDS Proxy
+Used By:
+- Platform Developers - Intermediate
+
+Training Material:
+
+### Elasticache (Redis)
+Used By:
+- Platform Developers - Intermediate
+
+Training Material:
+
+### OpenSearch
+Used By:
+- Platform Developers - Intermediate
+
+Training Material:
+
+### AWS VPCs
+Used By:
+- Platform Developers - Intermediate
+
+Training Material:
+
+
+### Lambda
+Used By:
+- Platform Developers - Advanced
+- Backend Developers - Intermediate
+
+Training Material:
+
+### Serverless Framework
+Used By:
+- Platform Developers - Advanced
+- Backend Developers - Novice
+
+Training Material:
