@@ -50,20 +50,19 @@ Used for:
 - Email
 - Video Conferencing
 
-Owner: Beckett
-
-
-- Google Drive (draw.io model definitions and relations)
-- Microsoft 365 ()
-- Outlook 365
-- AWS
-
+Owner: Krish Dasgupta
 
 ### Frontend Developers
 
 ### Backend Developers
 
 ### Platform Developers
+
+#### AWS 
+Used for: Building, Managing and Hosting Platform Infrastructure
+
+Owner: ???
+
 
 ### Designers
 
