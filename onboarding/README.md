@@ -52,6 +52,14 @@ Used for:
 
 Owner: Krish Dasgupta
 
+
+### All Developers
+
+#### Serverless Framework 
+Used for: Deploying and Monitoring Micro Services
+
+Owner: Krish Dasgupta
+
 ### Frontend Developers
 
 ### Backend Developers
