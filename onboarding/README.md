@@ -294,7 +294,19 @@ Used By:
 
 Training Material:
 
-### CloudFormation Development Kit
+### AWS CloudFormation Development Kit
+Used By:
+- Platform Developers - Advanced
+
+Training Material:
+
+### AWS CloudFormation
+Used By:
+- Platform Developers - Advanced
+
+Training Material:
+
+### AWS Serverless Application Model
 Used By:
 - Platform Developers - Advanced
 
