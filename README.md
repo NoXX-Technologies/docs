@@ -96,7 +96,7 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 
 #### All Infrastructure should:
 - Reside in an isolated AWS account (I.e. dev = AWS Account #1, staging = AWS Account #2)
-- Be built using CDK - Never, ever, ever make a change via console!!!!!
+- Automated and repeatable using a build tool such as CDK CDK - Never, ever, ever make a change via console or use a manual process to make changes!!!!!
 - Have the least privileged access to individuals
 
 #### All Tickets should:
