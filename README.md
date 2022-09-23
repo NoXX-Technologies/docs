@@ -80,9 +80,9 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 - Only uses default fetch method (cache-first) https://www.apollographql.com/docs/react/data/queries/#setting-a-fetch-policy
 - Avoid using .length on records when you mean “count”
 
-#### APIs
-- No REST. Create GraphQL APIs
-- If in Node/JavaScript, use TypeScript
+#### All APIs should:
+- Be GraphQL-based. NOT REST!!!!
+- Use TypeScript if written in Node/JavaScript
 
 #### All Tests should:
 - Reference the ticket number they are addressing: I.e “#54 - As a user, I can comment on another user’s card”
