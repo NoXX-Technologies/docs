@@ -56,6 +56,9 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 
 ### Code Reviews
 
+### JavaScript:
+- Convert to TypeScript
+
 #### TypeScript:
 - No use of “any”
 
