@@ -72,6 +72,7 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 - View/Container split. View = pure functional component
 - No Redux (use Context API, local state, Apollo)
 - Use TypeScript instead of JavaScript
+- Leverage design framework. Use theme file intensively and limit custom styles as much as possible.
 
 #### Apollo
 - Use typed-generated hooks (https://www.the-guild.dev/graphql/codegen/docs/guides/react#typed-hooks-for-apollo-and-urql)
