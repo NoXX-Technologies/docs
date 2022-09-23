@@ -68,6 +68,7 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 - Always use useCallback
 - View/Container split. View = pure functional component
 - No Redux (use Context API, local state, Apollo)
+- Use TypeScript instead of JavaScript
 
 #### Apollo
 - Use typed-generated hooks (https://www.the-guild.dev/graphql/codegen/docs/guides/react#typed-hooks-for-apollo-and-urql)
@@ -77,6 +78,7 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 
 #### APIs
 - No REST. Create GraphQL APIs
+- If in Node/JavaScript, use TypeScript
 
 #### All Tests should:
 - Reference the ticket number they are addressing: I.e “#54 - As a user, I can comment on another user’s card”
