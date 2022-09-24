@@ -87,6 +87,11 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 #### All Tests should:
 - Reference the ticket number they are addressing: I.e “#54 - As a user, I can comment on another user’s card”
 
+#### Dependencies
+- Pull requests should be automatically created whenever there is an update for a project dependency (i.e. dependabot)
+- Unless expressly determined, all dependencies should be kept current
+- No dependency should be added to a project without lead approval
+
 ### Process
 
 #### All Deploys should:
@@ -94,7 +99,11 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 - Automatically Update version number(s)
 - Run tests and block on error
 - Notify Appropriate Slack channels (success/failure)
+- Be automatically evaluated for performance implications (i.e. Scout APM)
 
+#### All production errors should:
+- Be automatically created and a cooresponding ticket should be opened (i.e. Honeybadger, Sentry, etc)
+- Be able to be ignored and thus not create repeated or duplicated tickets
 
 #### All Git commits should:
 - Be atomic. One commit for each ticket
