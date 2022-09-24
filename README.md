@@ -100,6 +100,7 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 - Run tests and block on error
 - Notify Appropriate Slack channels (success/failure)
 - Be automatically evaluated for performance implications (i.e. Scout APM)
+- Be triggered by git pushes to cooresponding git branch (i.e. push to dev deploys dev environment, push to staging deploy staging environment, etc)
 
 #### All production errors should:
 - Be automatically created and a cooresponding ticket should be opened (i.e. Honeybadger, Sentry, etc)
