@@ -4,7 +4,8 @@ Onboarding documenation will guide a new hire from noob to contributing hero as 
 
 We have broken this section down by role and cover everything from access, equipment and education.
 
-The relevant roles are:
+The relevant roles are [reflected as teams in the GitHub organization](https://github.com/orgs/NoXX-Technologies/teams) and explained below.
+
 ## Frontend Developers
 Frontend Developers work primarily in React to build customer-facing clients that connect to backend technologies
 ## Backend Developers
