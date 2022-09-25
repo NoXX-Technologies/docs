@@ -17,9 +17,9 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 [Please check back often for updates and changes!](https://github.com/NoXX-Technologies/docs/commits/main)
 
 ## Everybody
-- [Project Management Process](process/README.md)
 - [Onboarding](onboarding/README.md)
 - [Project Standards](project-standards/README.md)
+- [Project Management Process](process/README.md)
 
 ## Developers
 - [Severless Services](developers/services/README.md)
