@@ -102,4 +102,7 @@
 - 15 minutes or less
 - All meetings must have an agenda (No “Let’s meet to just talk about….”)
 
-
+### Avoid Tools in Search of a Problem
+- Tools (Slack, GitHub, Figma) can make a project run smoothly or de-rail one just as easily. 
+- Tools should avoid duplication of work and solve a specific problem that can't be solved with the existing toolset.
+- If a tool is added to a project, it must be thoroughly documented
