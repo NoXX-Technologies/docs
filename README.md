@@ -24,5 +24,7 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 ## Developers
 - [Severless Services](developers/services/README.md)
 - [Global Infrastructure](https://github.com/NoXX-Technologies/infrastructure)
-- [React](https://github.com/NoXX-Technologies/react-frontend)
-- [Rails](https://github.com/NoXX-Technologies/rails-api)
+- [Collect Frontend (React)](https://github.com/NoXX-Technologies/react-frontend)
+- [Collect API (Rails)](https://github.com/NoXX-Technologies/rails-api)
+- [Card Recognition Service (Python)](https://github.com/NoXX-Technologies/card-recognition-service)
+- Java Data Service - TODO
