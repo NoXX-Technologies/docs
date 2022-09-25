@@ -3,14 +3,19 @@
 
 ## Coding
 
+We strongly recommend the use of Visual Studio Code, however, we understand that choice of IDE can be a very personal choice.
+
+So while we have the strongest knowledge and support for VSC, as long as your IDE supports the following, feel free to use it.
+
 ### All code MUST use a linter and formatter:
 - Rubocop for rails
 - Prettier + ESLint for JavasScript / TypeScript
-- Your IDE MUST run Linters on save (recommended to use Visual Studio Code)
+- Your IDE MUST run Linters on save
 - If you disable a linter rule (at the file level), you must comment why
 - Pre-commit git hooks MUST block any commit with linter errors
 
 ### The linter/formatter settings must be the same across all projects
+This should take the form of an ide settings file such as a `.vscode` directory in the project.
 - Ruby projects MUST use the same Rubocop settings
 - All TypeScript projects MUST use the same Prettier + ESLint settings
 - All React  projects MUST use the same Prettier + ESLint settings
@@ -27,9 +32,9 @@
 ### TypeScript:
 - No use of “any”
 - Use arrow functions 
-- - Bad: `function printWords(word) { console.log(word); }` 
-- - Good: `const printWords = (word, word2) => console.log(word, word2);` 
-- - Good: `const printWord = word => console.log(word);`
+  - Bad: `function printWords(word) { console.log(word); }` 
+  - Good: `const printWords = (word, word2) => console.log(word, word2);` 
+  - Good: `const printWord = word => console.log(word);`
 - Eliminate code duplication - extract to `utils` folder
 - No “let” - use “const”
 - Immutable - No array.push (use reduce)
@@ -40,8 +45,8 @@
 - Split components into View and Container. 
 - - View = pure functional component. No function definitions. No `return` statement.
 - Follow Standard Code organization
-- - https://capture.dropbox.com/BFWjvVkZ6UkeIgej
-- - https://capture.dropbox.com/CIJYWFH2nbMjjiNE
+  - https://capture.dropbox.com/BFWjvVkZ6UkeIgej
+  - https://capture.dropbox.com/CIJYWFH2nbMjjiNE
 - No Redux (use Context API, local state, Apollo)
 - Use TypeScript instead of JavaScript
 - Leverage design framework. Use theme file intensively and limit custom styles as much as possible.
@@ -108,3 +113,6 @@
 - Tools (Slack, GitHub, Figma) can make a project run smoothly or de-rail one just as easily. 
 - Tools should avoid duplication of work and solve a specific problem that can't be solved with the existing toolset.
 - If a tool is added to a project, it must be thoroughly documented
+
+### Version numbers must be visible to the end user
+- This will greatly help in QA and bug reporting. Typically, the version, which may be comprised of both a frontend number and backend number, will reside in the footer of the frontend's UI.
