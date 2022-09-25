@@ -1,4 +1,4 @@
-# Onboarding (Under Contruction)
+# Onboarding
 
 Onboarding documenation will guide a new hire from noob to contributing hero as quickly as possible.
 
@@ -60,6 +60,29 @@ Platform Developers are NoOps engineers who automate Operations into PaaS and Fa
 - [ ] Google Workspace
 - [ ] Cypress.io
 - [ ] Figma
+
+#### Project Managers
+- [ ] Corporate Laptop
+- [ ] Signed Offer Letter
+- [ ] Signed Employee Docs
+- [ ] Benefits Selection
+- [ ] GitHub Organization (Read Role for each Repo)
+- [ ] Miro
+- [ ] Slack
+- [ ] Office 365
+- [ ] Google Workspace
+- [ ] Figma
+
+#### Quality Assurance Specialists
+- [ ] Corporate Laptop
+- [ ] Signed Offer Letter
+- [ ] Signed Employee Docs
+- [ ] Benefits Selection
+- [ ] GitHub Organization (Read Role for each Repo)
+- [ ] Miro
+- [ ] Slack
+- [ ] Office 365
+- [ ] Google Workspace
 
 ## Project Managers
 Project Managers are responsible for running iterations and IPMs. Additionally, project managers are responsible for estimation and timeline creation using a team's velocity.
