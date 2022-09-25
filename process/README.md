@@ -388,88 +388,6 @@ Additionally, all team members will be invited to calendar items to provide addi
 
 
 
-# Coding Guide
-
-The following contains a few best practices for coding on the project
-
-
-## Rails
-
-
-
-1. [Avoid/Remove n+1 queries](https://evilmartians.com/chronicles/how-to-graphql-with-ruby-rails-active-record-and-no-n-plus-one)
-2. Use cursor based pagination connections from graphql gem when building unbounded arrays
-
-
-## React
-
-
-
-1. Standardize component hierarchy
-
-    - Card
-
-
-    -- Detail
-
-
-    --- CardDetailView.tsx
-
-
-    --- CardDetailContainer.tsx 
-
-
-    --- CardDetailStyles.ts
-
-
-    -- List
-
-
-    --- CardListView.tsx
-
-
-    --- CardListContainer.tsx 
-
-
-    --- CardListStyles.ts
-
-
-    --- Item
-
-
-    ---- CardListItemView.tsx
-
-
-    ---- CardListItemContainer.tsx 
-
-
-    ---- CardListItemStyles.ts
-
-2. Split all components into View/Container/Styles
-    1. View: Pure Functional component. No variable assignments, no return statements. In an MVC, think of the View as the View.
-    2. Container: Gathers data and defines UI handlers. In MVC, think of this as the Controller
-    3. Styles: The JSS for the View
-3. If you’re working on a Javascript (.js) file, convert it to a TypeScript (.tsx) file.
-4. Don’t use “let” for variable assignment (use const)
-5. Use arrow functions
-    4. Bad: `function printWords(word) { console.log(word); }`
-    5. Good: `const printWords = (word, word2) => console.log(word, word2);`
-    6. Good: `const printWord = word => console.log(word);`
-6. If a component is rendered in a loop, the name of the file should end in “Item.tsx”, i.e “CardListItemContainer.tsx and CardListItemView.tsx”
-7. `useQuery` should not appear in any Item.tsx file (meaning, no queries should be made in a loop. This avoids n+1 requests)
-8. Fix all warnings - especially unused import/var
-9. Remove all queries.js, fragments.js and mutations.js and replace with __generated__ technique. See below:
-    7. [https://www.apollographql.com/blog/graphql/fragments/using-graphql-fragments-for-safer-cleaner-and-faster-code/](https://www.apollographql.com/blog/graphql/fragments/using-graphql-fragments-for-safer-cleaner-and-faster-code/)
-    8. [https://www.apollographql.com/blog/tooling/apollo-codegen/typescript-graphql-code-generator-generate-graphql-types/](https://www.apollographql.com/blog/tooling/apollo-codegen/typescript-graphql-code-generator-generate-graphql-types/)
-10. Put all reused functions into their own file in utils directory and import them
-11. Put all reused constant variables into const directory and import them
-12. Define functions outside of the component body if it doesn’t depend on state
-13. Use useCallback for all functions defined within a component body
-14. Use useRef or (less preferably) useMemo on objects and arrays to prevent re-rendering
-15. [Profile code to find unnecessary re-renders](https://brycedooley.com/debug-react-rerenders/)
-
-
-
 
 # Ticket Management Guide
 
@@ -518,6 +436,8 @@ A feature is a request for anything new. This could be a new product feature (As
 # Git Branch Management
 
 This section is for developers only
+
+## TODO: Make this section React/Rails agnostic
 
 
 
@@ -638,108 +558,6 @@ $ git checkout production; git pull; git merge staging; yarn deploy # select "no
 
 
 **Note: the backend and frontend version numbers are displayed in the footer of the web app**
-
-
-
-
-# Third Party Tools
-
-Below is a list of third party tools and integrations we use to assist us with our process.
-
-If you need access to any of these tools, please let Cody or Krish know.
-
-
-## Scout APM
-
-Scout APM records performance metrics for the Rails API and Postgres database.
-
-We use these metrics after QA finishes their testing each iteration to compare performance from one iteration to the next.
-
-
-## HotJar
-
-HotJar records user sessions and we use it, in conjunction with Google Analytics, to analyze usability problems with the app.
-
-For example, if we are noticing a high drop off at a certain point in a GA Funnel, we can use HotJar to see why users aren’t completing a particular step in the GA Funnel.
-
-
-## Honeybadger
-
-Honeybadger captures and tracks backend errors in the Rails API and creates GitHub tickets for us so we can triage them.
-
-
-## Loadster
-
-Loadster allows the QA team to records interactions and user stories and then play them back in the browser repeatedly while collecting render and load metrics.
-
-We use this to determine if there have been positive or negative gains in performance from iteration to iteration.
-
-
-## Cypress.io
-
-Cypress.io provides a dashboard for stakeholders to see metrics on our end-to-end tests, including speed metrics and code coverage as well as what tests are not passing.
-
-This is updated every time code is committed to the GitHub repo.
-
-
-## Log Rocket
-
-Log Rocket captures and tracks front-end errors in production and creates GitHub tickets for them so the developers can triage them.
-
-
-## Google Analytics
-
-Stakeholders use Google Analytics to analyze standard metrics and use them to guide product decisions and UI/UX optimizations.
-
-
-## Slack
-
-Slack is our main form of communication among the team with several automated integrations, including GitHub, Cypress and more.
-
-
-
-
-# Roles
-
-
-## Project Manager
-
-Dan Stern
-
-Adrian Colon
-
-
-## QA
-
-Dan Stern
-
-Adrian Colon
-
-
-## Lead Developer / Code Owner
-
-Cody Swann
-
-
-## Technical Director
-
-Krish Dasgupta
-
-
-## Developer
-
-Cody Swann
-
-David Etkin
-
-Dary Merckens
-
-Tim Brand
-
-Tony Ye
-
-
-# 
 
 
 # Terms and Definitions
