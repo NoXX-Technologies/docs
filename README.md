@@ -22,7 +22,7 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 - [Severless Services](developers/services/README.md)
 - [Global Infrastructure](https://github.com/NoXX-Technologies/infrastructure)
 - [React](https://github.com/NoXX-Technologies/react-frontend)
-- [Rails](https://github.com/NoXX-Technologies/rails)
+- [Rails](https://github.com/NoXX-Technologies/rails-api)
 - Workstation Setup (TODO)
 - [Common Access Requirements](onboarding/README.md)
 
