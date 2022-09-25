@@ -15,6 +15,8 @@ Platform Developers are NoOps engineers who automate Operations into PaaS and Fa
 
 ### Onboarding Checklist
 
+Below is a list of items you'll need/need access to. Further down, you'll find the owner for each item - contact them for the item.
+
 #### Platform Developers
 - [ ] Corporate Laptop
 - [ ] Signed Offer Letter
@@ -59,6 +61,7 @@ Platform Developers are NoOps engineers who automate Operations into PaaS and Fa
 - [ ] Office 365
 - [ ] Google Workspace
 - [ ] Cypress.io
+- [ ] LogRocket
 - [ ] Figma
 
 #### Project Managers
@@ -72,6 +75,7 @@ Platform Developers are NoOps engineers who automate Operations into PaaS and Fa
 - [ ] Office 365
 - [ ] Google Workspace
 - [ ] Figma
+- [ ] Google Analytics
 
 #### Quality Assurance Specialists
 - [ ] Corporate Laptop
@@ -150,6 +154,15 @@ Owner: Krish Dasgupta
 
 Used by: Everyone
 
+### Google Analytics 
+Used for: 
+- A/B Testing
+- Product Useage Data
+
+Owner: ???
+
+Used by: Project Manager
+
 
 ### Serverless Framework 
 Used for: Deploying and Monitoring Micro Services
@@ -174,7 +187,7 @@ Used By:
 - Frontend Developers
 - Product Managers
 
-### Scout APM
+### [Scout APM](https://scoutapm.com/)
 Used for: Performance Monitoring
 
 Owner: Krish Dasgupta
@@ -184,7 +197,7 @@ Used By:
 - Platform Developers
 
 
-### Honeybadger
+### [Honeybadger](https://www.honeybadger.io/)
 Honeybadger captures and tracks backend errors in the Rails API and creates GitHub tickets for us so we can triage them.
 
 Used for: Error Monitoring
@@ -196,7 +209,7 @@ Used By:
 - Platform Developers
 - Project Managers
 
-### Log Rocket
+### [LogRocket](https://logrocket.com/)
 
 Log Rocket captures and tracks front-end errors in production and creates GitHub tickets for them so the developers can triage them.
 
@@ -219,7 +232,7 @@ Owner: ???
 Used By:
 - Platform Developers
 
-### Loadster
+### [Loadster](https://loadster.app/)
 
 Loadster allows the QA team to records interactions and user stories and then play them back in the browser repeatedly while collecting render and load metrics.
 
@@ -232,7 +245,7 @@ Used By:
 - Backend Developers
 - Quality Assurance Specialists
 
-### Cypress.io
+### [Cypress.io](https://www.cypress.io/)
 
 Cypress.io provides a dashboard to see metrics on our end-to-end tests, including speed metrics and code coverage as well as what tests are not passing.
 
@@ -241,15 +254,6 @@ This is updated every time code is committed to the GitHub repo.
 Used By:
 - Frontend Developers
 - Project Managers
-
-## Equipment
-
-### Laptop
-Owner: ???
-
-Used By:
-- Everyone
-
 
 ## Education
 
@@ -270,6 +274,7 @@ Used By:
 - Platform Developers - Intermediate
 
 Training Material:
+- [Getting Started](https://graphql.org/graphql-js/)
 
 ### React
 
@@ -277,6 +282,7 @@ Used By:
 - Frontend Developers - Advanced
 
 Training Material:
+- [Getting Started](https://reactjs.org/docs/getting-started.html)
 
 ### Cypress
 
@@ -285,6 +291,7 @@ Used By:
 - Platform Developers - Novice (just need to know how to configure it for CI/CD)
 
 Training Material:
+- [Getting Started](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test)
 
 ### Material UI
 
@@ -292,12 +299,22 @@ Used By:
 - Frontend Developers - Advanced
 
 Training Material:
+- [Getting Started](https://mui.com/material-ui/getting-started/installation/)
+
+### React Router
+
+Used By:
+- Frontend Developers - Advanced
+
+Training Material:
+- [Getting Started](https://v5.reactrouter.com/web/guides/quick-start)
 
 ### Apollo Client
 Used By:
 - Frontend Developers - Advanced
 
 Training Material:
+- [Getting Started](https://www.apollographql.com/docs/react/get-started/)
 
 ### TypeScript
 Used By:
@@ -305,6 +322,7 @@ Used By:
 - Platform Developers - Intermediate
 
 Training Material:
+- [Getting Started](https://www.typescriptlang.org/docs/)
 
 ### Figma
 
@@ -321,31 +339,49 @@ Used By:
 - Backend Developers - Intermediate
 
 Training Material:
+- [Getting Started](https://guides.rubyonrails.org/)
 
 ### Rails Admin Gem
 Used By:
 - Backend Developers - Intermediate
 
 Training Material:
+- [Getting Started](https://github.com/railsadminteam/rails_admin/wiki)
 
-### Rails GraphQL Gem (with Pro)
+### GraphQL Gem (with Pro)
 Used By:
 - Backend Developers - Intermediate
 
 Training Material:
+- [Getting Started](https://graphql-ruby.org/getting_started)
+- [Pro](https://graphql.pro/)
 
-### Rails Searchkik Gem
+### Searchkick Gem
 Used By:
 - Backend Developers - Intermediate
 
 Training Material:
+- [Getting Started](https://github.com/ankane/searchkick#getting-started)
 
-### Rails Rspec Gem
+### Rspec
 Used By:
 - Backend Developers - Intermediate
 - Platform Developers - Novice (know how to run it during CI/CD)
 
 Training Material:
+- [Getting Started](https://semaphoreci.com/community/tutorials/getting-started-with-rspec)
+
+
+### Rails Lamby
+
+Lamby is Rails built with SAM on an the AWS Elastic Container Service to run serverlessly on Lambda.
+
+Used By:
+- Backend Developers - Intermediate
+- Platform Developers - Advanced
+
+Training Material:
+- [Getting Started](https://lamby.custominktech.com/docs/quick_start)
 
 ### Node
 Used By:
@@ -433,3 +469,4 @@ Used By:
 - Backend Developers - Novice
 
 Training Material:
+- [Getting Started](https://www.serverless.com/framework/docs/getting-started)
