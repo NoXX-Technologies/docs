@@ -13,6 +13,54 @@ Backend Developers create microservices that power, create, format and serve dat
 ## Platform Developers
 Platform Developers are NoOps engineers who automate Operations into PaaS and FaaS that host the services and clients built by the backend and frontend developers. This role also creates CI/CD pipelines as well as local development setups. Essentially, the Platform Developers' job is to make sure the Frontend Developers and Backend Developers only need to worry about creating application business logic.
 
+### Onboarding Checklist
+
+#### Platform Developers
+- [ ] Corporate Laptop
+- [ ] Signed Offer Letter
+- [ ] Signed Employee Docs
+- [ ] Benefits Selection
+- [ ] AWS (AdministratorAccess Access)
+- [ ] GitHub Organization (Admin Role for each Repo)
+- [ ] Miro
+- [ ] Slack
+- [ ] Office 365
+- [ ] Google Workspace
+- [ ] Serverless Framework
+- [ ] Scout APM
+- [ ] Honeybadger
+- [ ] Loadster
+- [ ] Cypress.io
+- [ ] Figma
+
+#### Backend Developers
+- [ ] Corporate Laptop
+- [ ] Signed Offer Letter
+- [ ] Signed Employee Docs
+- [ ] Benefits Selection
+- [ ] GitHub Organization (Write Role for each Repo)
+- [ ] Miro
+- [ ] Slack
+- [ ] Office 365
+- [ ] Google Workspace
+- [ ] Serverless Framework
+- [ ] Scout APM
+- [ ] Honeybadger
+- [ ] Figma
+
+#### Frontend Developers
+- [ ] Corporate Laptop
+- [ ] Signed Offer Letter
+- [ ] Signed Employee Docs
+- [ ] Benefits Selection
+- [ ] GitHub Organization (Write Role for each Repo)
+- [ ] Miro
+- [ ] Slack
+- [ ] Office 365
+- [ ] Google Workspace
+- [ ] Cypress.io
+- [ ] Figma
+
 ## Project Managers
 Project Managers are responsible for running iterations and IPMs. Additionally, project managers are responsible for estimation and timeline creation using a team's velocity.
 
