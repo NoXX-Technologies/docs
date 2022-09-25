@@ -1,15 +1,9 @@
-# NoXX Process Guide (Under Construction)
+# NoXX Process Guide
 
 
 This guide should serve as the go-to resource for all operations on the Becket Collect project. Please review carefully and adhere to the best practices outlined here. If you encounter a situation that is not covered in this guide, please alert Krish or Cody who will answer your question and update this document accordingly.
 
 With each change, the version number should be bumped above, so you’ll always know if there have been changes since your last review.
-
-### Under Construction ###
-
-This document is in the process of being separated and updated to address specific roles within the Beckett family.
-
-Additionally, some items in this document refer to working with our legacy Heroku/Netlify stack which is being phased out with our ongoing migration to AWS.
 
 
 ## “Good software development is not a reactive, chaotic endeavor. Too often, teams mistake ‘busy’ for ‘productive’. Instead productivity in software development comes from a proactive, consistent and methodical approach.” -DHH 
@@ -667,16 +661,3 @@ Review tickets to make sure they are still valid. Check priorities and adjust if
 
 Review tickets to see which ones are appropriate for you and assign them to you if they are. If you assign a ticket to yourself, add effort points.
 
-
-# FAQs
-
-
-## How do I know what the latest version should be?
-
-First, check the app on the environment in question. The version number will be in the footer of the app and look like this: version 0.10.2 / 0.12.0 where the backend version is first, followed by the frontend version.
-
-Check these against the version numbers in the package.json files in the respective Rails and React repo (keeping in mind to check the right branch, i.e. staging/production). If they are different, then a deploy failed.
-
-For the backend, check the “Actions” tab on the Rails repo.
-
-For the frontend, check the Netlify logs 
