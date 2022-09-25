@@ -47,6 +47,8 @@
 - Leverage design framework. Use theme file intensively and limit custom styles as much as possible.
 - Define functions that don't need access to state OUTSIDE of render function
 - Avoid/Eliminate class-based comonents (use functional components with hooks)
+- Use useRef or (less preferably) useMemo on objects and arrays to prevent re-rendering
+- [Profile code to find unnecessary re-renders](https://brycedooley.com/debug-react-rerenders/)
 
 ### Apollo
 - Use typed-generated hooks (https://www.the-guild.dev/graphql/codegen/docs/guides/react#typed-hooks-for-apollo-and-urql)
