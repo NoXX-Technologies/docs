@@ -18,6 +18,7 @@ Don't keep going! Fix/add it! Or contact Cody and he'll fix/add it!
 
 ## Everybody
 - [Onboarding](onboarding/README.md)
+- [Org Chart](org-chart/README.md)
 - [Project Standards](project-standards/README.md)
 - [Project Management Process](process/README.md)
 
