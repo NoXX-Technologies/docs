@@ -17,23 +17,36 @@
 
 ## Code Reviews
 
+## Rails
+- [Avoid/Remove n+1 queries](https://evilmartians.com/chronicles/how-to-graphql-with-ruby-rails-active-record-and-no-n-plus-one)
+- API list operations built in [Relay Style](https://graphql-ruby.org/pagination/using_connections) - [More](https://graphql-ruby.org/pagination/stable_relation_connections)
+
 ## JavaScript:
 - Convert to TypeScript
 
 ### TypeScript:
 - No use of “any”
-
-### JavaScript/TypeScript:
+- Use arrow functions 
+- - Bad: `function printWords(word) { console.log(word); }` 
+- - Good: `const printWords = (word, word2) => console.log(word, word2);` 
+- - Good: `const printWord = word => console.log(word);`
+- Eliminate code duplication - extract to `utils` folder
 - No “let” - use “const”
 - Immutable - No array.push (use reduce)
 - Immutable - No “forEach” (use map or reduce or filter)
 
 ### React
 - Always use useCallback
-- View/Container split. View = pure functional component
+- Split components into View and Container. 
+- - View = pure functional component. No function definitions. No `return` statement.
+- Follow Standard Code organization
+- - https://capture.dropbox.com/BFWjvVkZ6UkeIgej
+- - https://capture.dropbox.com/CIJYWFH2nbMjjiNE
 - No Redux (use Context API, local state, Apollo)
 - Use TypeScript instead of JavaScript
 - Leverage design framework. Use theme file intensively and limit custom styles as much as possible.
+- Define functions that don't need access to state OUTSIDE of render function
+- Avoid/Eliminate class-based comonents (use functional components with hooks)
 
 ### Apollo
 - Use typed-generated hooks (https://www.the-guild.dev/graphql/codegen/docs/guides/react#typed-hooks-for-apollo-and-urql)
