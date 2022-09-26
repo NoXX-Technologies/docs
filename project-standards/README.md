@@ -30,15 +30,15 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 - Convert to TypeScript
 
 ### TypeScript:
-- No use of “any”
+- No use of `any`
 - Use arrow functions 
   - Bad: `function printWords(word) { console.log(word); }` 
   - Good: `const printWords = (word, word2) => console.log(word, word2);` 
   - Good: `const printWord = word => console.log(word);`
 - Eliminate code duplication - extract to `utils` folder
-- No “let” - use “const”
-- Immutable - No array.push (use reduce)
-- Immutable - No “forEach” (use map or reduce or filter)
+- No `let` - use `cons`
+- Immutable - No `array.push` (use `reduce`)
+- Immutable - No `forEach` (use `map` or `reduce` or `filter`)
 
 ### React
 - Always use `useCallback`
