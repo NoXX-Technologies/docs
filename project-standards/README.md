@@ -26,10 +26,10 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 - [Avoid/Remove n+1 queries](https://evilmartians.com/chronicles/how-to-graphql-with-ruby-rails-active-record-and-no-n-plus-one)
 - API list operations built in [Relay Style](https://graphql-ruby.org/pagination/using_connections) - [More](https://graphql-ruby.org/pagination/stable_relation_connections)
 
-## JavaScript:
-- Convert to TypeScript
+## JavaScript
+- Convert to TypeScript (rename .js to .ts/.tsx and fix errors)
 
-### TypeScript:
+### TypeScript
 - No use of `any`
 - Use arrow functions 
   - Bad: `function printWords(word) { console.log(word); }` 
