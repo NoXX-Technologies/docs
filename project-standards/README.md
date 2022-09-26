@@ -71,10 +71,12 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 ### All Tests should:
 - Reference the ticket number they are addressing: I.e “#54 - As a user, I can comment on another user’s card”
 
-### Dependencies
+### Dependencies (i.e. gems/npm)
 - Pull requests should be automatically created whenever there is an update for a project dependency (i.e. dependabot)
 - Unless expressly determined, all dependencies should be kept current
 - No dependency should be added to a project without lead approval
+- Use Bundler to manage Ruby dependencies
+- Use Yarn to manage TypeScript dependencies
 
 ## Process
 
