@@ -39,6 +39,8 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 - No `let` - use `cons`
 - Immutable - No `array.push` (use `reduce`)
 - Immutable - No `forEach` (use `map` or `reduce` or `filter`)
+- Immutable - Prefer `Promise.all` and `Promise.then` to `async`/`await`
+- Use descriptive function names with short, composed function bodies
 
 ### React
 - Always use `useCallback`
