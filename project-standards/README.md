@@ -78,6 +78,12 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 - Use Bundler to manage Ruby dependencies
 - Use Yarn to manage TypeScript dependencies
 
+## Testing
+- Minimum acceptable test coverage is 90%
+- All tests should reference the GitHub issue number they address
+- All tests should be run on deploy
+- All tests should be run with push/pull request
+
 ## Process
 
 ### All Deploys should:
@@ -104,6 +110,7 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 ### All Tickets should:
 - Be created in GitHub (so project metrics are automated)
 - Include effort points from developer
+- Have verifiable acceptance criteria 
 
 ### All Documentation
 - Must reside in Git/GitHub for easy reference to repositories
