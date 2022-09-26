@@ -59,7 +59,7 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 ### Apollo
 - [Use typed-generated hooks](https://www.the-guild.dev/graphql/codegen/docs/guides/react#typed-hooks-for-apollo-and-urql)
 - No use of “refetch”
-- [Only uses default fetch method (cache-first)]https://www.apollographql.com/docs/react/data/queries/#setting-a-fetch-policy
+- [Only uses default fetch method (cache-first)](https://www.apollographql.com/docs/react/data/queries/#setting-a-fetch-policy)
 - Avoid using .length on records when you mean “count”
 
 ### All APIs should:
