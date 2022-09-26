@@ -453,6 +453,12 @@ Used By:
 
 Training Material:
 
+### AWS SQS
+Used By:
+- Platform Developers - Intermediate
+
+Training Material:
+
 ### AWS VPCs
 Used By:
 - Platform Developers - Intermediate
