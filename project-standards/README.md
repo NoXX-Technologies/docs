@@ -41,9 +41,9 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 - Immutable - No “forEach” (use map or reduce or filter)
 
 ### React
-- Always use useCallback
+- Always use `useCallback`
 - Split components into View and Container. 
-- - View = pure functional component. No function definitions. No `return` statement.
+  - View = pure functional component. No function definitions. No `return` statement.
 - Follow Standard Code organization
   - https://capture.dropbox.com/BFWjvVkZ6UkeIgej
   - https://capture.dropbox.com/CIJYWFH2nbMjjiNE
@@ -52,8 +52,9 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 - Leverage design framework. Use theme file intensively and limit custom styles as much as possible.
 - Define functions that don't need access to state OUTSIDE of render function
 - Avoid/Eliminate class-based comonents (use functional components with hooks)
-- Use useRef or (less preferably) useMemo on objects and arrays to prevent re-rendering
+- Use `useRef` or (less preferably) `useMemo` on objects and arrays to prevent re-rendering
 - [Profile code to find unnecessary re-renders](https://brycedooley.com/debug-react-rerenders/)
+- Do not use plain HTML. i.e. replace `<div>` with `<Box>`, replace `<img>` with `<Box component="img">`
 
 ### Apollo
 - [Use typed-generated hooks](https://www.the-guild.dev/graphql/codegen/docs/guides/react#typed-hooks-for-apollo-and-urql)
