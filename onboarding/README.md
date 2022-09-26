@@ -77,6 +77,7 @@ Below is a list of items you'll need/need access to. Further down, you'll find t
 - [ ] Google Workspace
 - [ ] Figma
 - [ ] Google Analytics
+- [ ] Notion
 
 #### Quality Assurance Specialists
 - [ ] Corporate Laptop
@@ -159,6 +160,14 @@ Used by: Everyone
 Used for: 
 - A/B Testing
 - Product Useage Data
+
+Owner: ???
+
+Used by: Project Manager
+
+### Notion
+Used for: 
+- Product documentation
 
 Owner: ???
 
