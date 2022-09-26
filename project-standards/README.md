@@ -36,7 +36,7 @@ This should take the form of an ide settings file such as a `.vscode` directory 
   - Good: `const printWords = (word, word2) => console.log(word, word2);` 
   - Good: `const printWord = word => console.log(word);`
 - Eliminate code duplication - extract to `utils` folder
-- No `let` - use `cons`
+- No `let` - use `const` only
 - Immutable - No `array.push` (use `reduce`)
 - Immutable - No `forEach` (use `map` or `reduce` or `filter`)
 - Immutable - Prefer `Promise.all` and `Promise.then` to `async`/`await`
