@@ -51,12 +51,17 @@ This should take the form of an ide settings file such as a `.vscode` directory 
   - https://capture.dropbox.com/CIJYWFH2nbMjjiNE
 - No Redux (use Context API, local state, Apollo)
 - Use TypeScript instead of JavaScript
-- Leverage design framework. Use theme file intensively and limit custom styles as much as possible.
 - Define functions that don't need access to state OUTSIDE of render function
 - Avoid/Eliminate class-based comonents (use functional components with hooks)
 - Use `useRef` or (less preferably) `useMemo` on objects and arrays to prevent re-rendering
 - [Profile code to find unnecessary re-renders](https://brycedooley.com/debug-react-rerenders/)
 - Do not use plain HTML. i.e. replace `<div>` with `<Box>`, replace `<img>` with `<Box component="img">`
+- Limit the use of custom CSS/JSS. [Leverage Design Framework](https://www.figma.com/file/dwJuFGoZK3Ey2P3xg5mnuG/MUI---Beckett?node-id=4662%3A14)
+  - Bad: {color: "#FF0000";}
+  - Good: {color: theme.palette.error}
+  - Bad: {margin: "4px";}
+  - Good: {margin: 1}
+  - Never use a color, font name, etc that is not defined in the theme. If it's in Figma, but not the theme file, add it. If it's not in figma, design must add it first
 
 ### Apollo
 - [Use typed-generated hooks](https://www.the-guild.dev/graphql/codegen/docs/guides/react#typed-hooks-for-apollo-and-urql)
