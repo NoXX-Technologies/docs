@@ -6,9 +6,8 @@ Place to go for the latest changes, tips, updates related to the transition to:
 
 ## Model Updates (Migrations)
 
-create model item (generally unused for now)
-id
-(that's it. really just a placedholder)
+create model item (generally unused for now):
+- id (that's it. really just a placedholder)
 
 
 migration update on cards:
