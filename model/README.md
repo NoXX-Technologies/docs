@@ -25,6 +25,7 @@ migrate update on card_sets:
 
 migrate update on sports
 - remove auto-generate on id -> its the pre-specified id (static data set)
+- change data type on id from UUID to int
 
 migrate update on manufacturer
 - remove auto-generate on id -> its the pre-specified id (static data set)
