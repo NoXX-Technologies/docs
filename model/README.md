@@ -12,10 +12,10 @@ id
 
 
 migration update on cards:
-remove manufacturer_id.
-remove psa_spec_id
-add item_id (foreign key constraint with item.id - see above)
-remove auto-generate on id -> its the pre-specified id (static data set)
+- remove manufacturer_id
+- remove psa_spec_id
+- add item_id (foreign key constraint with item.id - see above)
+- remove auto-generate on id -> its the pre-specified id (static data set)
 
 migrate update on card_sets:
 remove psa_header_id
