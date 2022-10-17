@@ -18,16 +18,16 @@ migration update on cards:
 - remove auto-generate on id -> its the pre-specified id (static data set)
 
 migrate update on card_sets:
-remove psa_header_id
-remove psa_category
-remove auto-generate on id -> its the pre-specified id (static data set)
+- remove psa_header_id
+- remove psa_category
+- remove auto-generate on id -> its the pre-specified id (static data set)
 
-migrate update on sports
-remove auto-generate on id -> its the pre-specified id (static data set)
+migrate update on sports:
+- remove auto-generate on id -> its the pre-specified id (static data set)
 
-migrate update on manufacturer
-remove auto-generate on id -> its the pre-specified id (static data set)
+migrate update on manufacturer:
+- remove auto-generate on id -> its the pre-specified id (static data set)
 
-migrate update on set_types
-remove auto-generate on id -> its the pre-specified id (static data set)
+migrate update on set_types:
+- remove auto-generate on id -> its the pre-specified id (static data set)
 
