@@ -7,13 +7,14 @@ Place to go for the latest changes, tips, updates related to the transition to:
 ## Model Updates (Migrations)
 
 create model item (generally unused for now):
-- id (that's it. really just a placedholder)
+- id (that's it. really just a placedholder UUID)
 
 
 migration update on cards:
 - remove manufacturer_id
 - remove psa_spec_id
-- add item_id (foreign key constraint with item.id - see above)
+- add item_id (foreign key constraint with item.id - see above - UUID)
+- add print_run (int)
 - remove auto-generate on id -> its the pre-specified id (static data set)
 
 migrate update on card_sets:
