@@ -22,6 +22,7 @@ migrate update on card_sets:
 - remove psa_category
 - add full_name (character varying)
 - add related_set_id (uuid)
+- add set_blurb (character varying)
 - remove auto-generate on id -> its the pre-specified id (static data set)
 
 migrate update on sports
