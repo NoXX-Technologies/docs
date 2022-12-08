@@ -27,9 +27,17 @@ Also, the #docs slack channel will automatically be notified when this repo is u
 - [Project Management Process](process/README.md)
 
 ## Developers
-- [Severless Services](developers/services/README.md)
-- [Global Infrastructure](https://github.com/NoXX-Technologies/infrastructure)
-- [Collect Frontend (React)](https://github.com/NoXX-Technologies/react-frontend)
-- [Collect API (Rails)](https://github.com/NoXX-Technologies/rails-api)
-- [Card Recognition Service (Python)](https://github.com/NoXX-Technologies/card-recognition-service)
-- Java Data Service - TODO
+### Tech Stack Overview
+
+The Collect Tech Stack is a collection of microservices running on AWS products.
+#### [Severless Services](developers/services/README.md)
+These services are built using the [Serverless Framework](https://serverless.com/) and include the following:
+- [Card Recognition Service (Python)](https://github.com/NoXX-Technologies/card-recognition-service). Written in Python, this service is for Natural Language Processing and Image recognition of card images
+- [Data Service (Java)](https://github.com/NoXX-Technologies/collect-java). Written in Java, this service is for data and asset integration with Palantir Foundry
+- [Congito Single Sign On Service (TypeScript)](https://github.com/NoXX-Technologies/cognito-service). Written in TypeScript, this service provides the authentication and authorization layer for Collect and, soon, the rest of Beckett
+#### Other Services
+- [Global Infrastructure](https://github.com/NoXX-Technologies/infrastructure). Built using TypeScript CDK, this is an Infrastructure as Code service that builds the Infrastructure required to run the other services.
+- [Collect Frontend (React)](https://github.com/NoXX-Technologies/react-frontend). Built using TypeScript React, this service provides the presentation layer for the Collect frontend.
+- [Collect API and Admin (Rails)](https://github.com/NoXX-Technologies/rails-api). Built using Ruby on Rails running on an Elastic Container Service-backed Lambda, this service provides the GraphQL API used by the Frontend as well as the Admin and Moderation services allowing authorized team members to modify and approve data. 
+
+
