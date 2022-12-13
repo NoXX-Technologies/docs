@@ -6,6 +6,10 @@ We have broken this section down by role and cover everything from access, equip
 
 The relevant roles are [reflected as teams in the GitHub organization](https://github.com/orgs/NoXX-Technologies/teams) and explained below.
 
+Please do not complain about not understanding the tech stack if you have not read and understand the education material listed below.
+
+To be clear, we are not requiring frontend developers to educate themselves on backend material and vice versa. In fact, if you're not a backend developer, you should not be concerned with how the backend works (and vice versa).
+
 ## Frontend Developers
 Frontend Developers work primarily in React to build customer-facing clients that connect to backend technologies
 ## Backend Developers
