@@ -33,7 +33,7 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 - unused import = error
 - incorrect dependencies in useEffect, useCallback, useMemo = error
 
-#### Relevant Files
+#### Relevant Files and Folders
 
 - .husky
 - .vscode
