@@ -46,6 +46,8 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 
 #### [Sample Project](https://github.com/NoXX-Technologies/docs/files/10230323/sample.zip)
 
+### DO NOT DISABLE LINTER RULES INLINE OR GLOBALLY. PERIOD. FIX YOUR SHIT. DON'T COVER IT WITH LEAVES
+
 ## Code Reviews
 
 ## Rails
