@@ -20,6 +20,32 @@ This should take the form of an ide settings file such as a `.vscode` directory 
 - All TypeScript projects MUST use the same Prettier + ESLint settings
 - All React  projects MUST use the same Prettier + ESLint settings
 
+### Linter Setup for TypeScript React Projects
+- "format" includes removing unused imports
+- "format" includes sorting/organizating imports
+- Code format on save (using prettier)
+- Code format on paste (using prettier)
+- Code format on commit (using husky + prettier)
+- Code check format on commit (using husky + prettier + eslint)
+- Block commit if format errors (using husky + prettier + eslint)
+- Deploy fails if format errors (eslint + prettier + github actions) <=== Platform team handles this
+- unused vars = error
+- unused import = error
+- incorrect dependencies in useEffect, useCallback, useMemo = error
+
+#### Relevant Files
+
+- .husky
+- .vscode
+- .eslintignore
+- .eslintrc.json
+- .prettierignore.json
+- .prettierrc.json
+- package.json
+- tsconfig.json
+
+#### [Sample Project](https://github.com/NoXX-Technologies/docs/files/10230323/sample.zip)
+
 ## Code Reviews
 
 ## Rails
